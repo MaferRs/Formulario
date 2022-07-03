@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&family=Poppins&family=Raleway:wght@700&display=swap');
+
+@import url('./responsive.css');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+   
+    width: 100vw;
+    height: 100vh;
+
+    background-color:  #E5E5E5;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+}
+.card{
+    width: 864px;
+    height: 864px;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.card__title{
+
+    height: 21px;
+   
+   
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+
+
+}
+.card__description{
+    flex-direction: column;
+    width: 244px;
+    height: 20px;
+  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #636363;
+    padding-top: 7px;
+}
+.card__group-btn{
+    display: flex;
+    margin-top:26px ;
+    width: 320px;
+    height: 52px;
+}
+.group-btn__email{
+    width: 153px;
+    height: 52px;
+    background: #6A00BF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 8px 0px 0px 8px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #FFFFFF; 
+    border: none;
+}
+
+.group-btn__phone{
+    width: 153px;
+    height: 52px;
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 16px;
+    
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.08));
+    border-radius: 0 8px 8px 0;
+    
+}
+.card__form-signin{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 31px;
+
+}
+.form-signin__input{
+    width: 339px;
+    height: 55px;
+    margin-top: 13px;
+    
+    border: 1px solid #818181;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.12));
+    border-radius: 12px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 16px;
+}
+.form-signin__password{
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color: #4285F4;
+    text-align: right;
+    padding-top: 6px;
+    padding-bottom: 36px;
+}
+.form-signin__btn-login{
+    width: 339px;
+    height: 55px;
+    left: 254px;
+    top: 536px;
+    
+    background: #190152;
+    border-radius: 12px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+
+
+color: #FFFFFF;
+}
+.card__form-signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 31px;
+}
+
+/*card 02*/
+.form-signup__input{
+
+    width: 339px;
+    height: 55px;
+    padding-left: 16px;
+    margin-bottom: 30px;
+    
+    border: 1px solid #818181;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.12));
+    border-radius: 12px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #6F6F6F;
+}
+.form-signup__btn-send{
+    width: 339px;
+    height: 55px;
+    left: 267px;
+    top: 475px;
+    
+    background: #190152;
+    border-radius: 12px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
